@@ -1,0 +1,15 @@
+.header{
+  display: flex;
+  justify-content: space-around;
+}
+.logo{
+  border-radius: 15px 0px;
+  background-color: salmon;
+  padding: 0.4em;
+  margin-top:9px;
+  margin-bottom: 9px;
+  display: flex;
+  align-items: center;
+  color: white;
+  font-weight: 900;
+}

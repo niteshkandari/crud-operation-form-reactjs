@@ -1,0 +1,7 @@
+ .main-form{
+  width: 60em;
+  margin:12em auto;
+  padding: 3em;
+  border:2px solid rgb(172, 171, 171);
+  border-radius: 2em;
+}
