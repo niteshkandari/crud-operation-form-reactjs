@@ -9,7 +9,8 @@ export default function App() {
   return (
     <Fragment>
     <Navbar/>
-     {show ? <AuthForm/> : <MainPage/>}
+     {/* {show ? <AuthForm/> : <MainPage/>} */}
+     <MainPage/>
      <Footer />
      </Fragment>
   )
