@@ -28,7 +28,7 @@ dispatch(formActions.showData());
   return (
     <React.Fragment>
      <div>
-      {data ? (data.map((d, index) => (<table key={index} className="border text-black table-fixed mx-auto">
+      {data ? (data.map((d, index) => (<table key={index} className=" text-black table-fixed mx-auto">
         <thead>
           <tr>
             <th className="w-1/6">NAME</th>  <th className="w-1/6">EMAIL</th>  <th className="w-1/6">AGE</th>  <th className="w-1/6">Gender</th> <th className="w-1/6">BirthDate</th> <th className="w-1/6">Phone no</th>

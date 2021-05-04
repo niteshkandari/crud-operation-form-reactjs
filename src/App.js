@@ -11,7 +11,7 @@ export default function App() {
     <Navbar/>
      {/* {show ? <AuthForm/> : <MainPage/>} */}
      <MainPage/>
-     <Footer />
+     {/* <Footer /> */}
      </Fragment>
   )
 }

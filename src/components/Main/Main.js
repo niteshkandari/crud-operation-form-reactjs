@@ -7,7 +7,7 @@ export default function MainPage() {
   // const heading = useSelector(state => state.data.heading)
   return (
     <Fragment>
-    <div className='mt-36 mx-64 border-2 md:mx-8'>
+    <div className='my-36 md:mx-auto border-2 border-collapse md:max-w-5xl p-2'>
     {!showData ? <DataColForm/> : <Data/>}
     </div>
    </Fragment>
